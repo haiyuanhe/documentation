@@ -5,4 +5,6 @@
 * [软硬件环境](part2/software_and_hardware_environment.md)
 * [功能清单](part3/function_list.md)
 * [功能介绍](part4/README.md)
+  * [UI界面 - 系统总览](part4/ui_summary.md)
+  * [UI界面 - 智能分析面板](part4/ui_dashboard.md)
 
