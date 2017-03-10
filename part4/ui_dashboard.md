@@ -6,3 +6,9 @@
 
 ![](/part4/images/new_dashboard.gif)
 
+> **导入智能面板。每个智能面板和其中的所有指标图形的定义和配置都可以存成本地文件，并被随时导入**
+
+![](/part4/images/import_dashboard.gif)
+
+
+
