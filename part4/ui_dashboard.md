@@ -10,10 +10,17 @@
 
 ![](/part4/images/import_dashboard.gif)
 
-
-
 ## **2 导出智能面板**
 
+> 将智能面板和其中的所有指标图形的定义和配置存成本地文件。
+
+![](/part4/images/p4_4.png)
+
+
+
+> 填写保存文件的名字
+
+![](/part4/images/p4_5.png)  
 
 
 
