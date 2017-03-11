@@ -34,5 +34,13 @@
 
 
 
+下面列举了部分不同类型的视图
+
+![](/part4/images/p4_7.png)
+
+![](/part4/images/p4_8.png)
+
+
+
 
 
