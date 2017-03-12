@@ -10,4 +10,5 @@
   * [UI界面 - 编辑视图](part4/edit_panel.md)
   * [UI 界面 - 报警&关联分析](part4/alert_and_association.md)
   * [UI 界面 - 实时报警通知](part4/oncaller.md)
+  * [UI 界面 - 实时健康状态](part4/health.md)
 
