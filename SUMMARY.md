@@ -12,4 +12,5 @@
   * [UI 界面 - 实时报警通知](part4/oncaller.md)
   * [UI 界面 - 实时健康状态](part4/health.md)
   * [UI 界面 - 自动异常探测](part4/annomaly.md)
+  * [UI 界面 - 长期分析预测](part4/analysis.md)
 
