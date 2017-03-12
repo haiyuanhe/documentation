@@ -14,4 +14,5 @@
   * [实时健康状态](part4/health.md)
   * [自动异常探测](part4/annomaly.md)
   * [长期分析预测](part4/analysis.md)
+  * [管理功能](part4/guan-li-gong-neng.md)
 
