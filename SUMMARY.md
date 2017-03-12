@@ -8,5 +8,5 @@
   * [UI界面 - 系统总览](part4/ui_summary.md)
   * [UI界面 - 智能分析面板](part4/ui_dashboard.md)
   * [UI界面 - 编辑视图](part4/edit_panel.md)
-  * [UI 界面 - 报警&关联分析](part4/ui-jie-mian-bao-8b6626-guan-lian-fen-xi.md)
+  * [UI 界面 - 报警&关联分析](part4/alert_and_association.md)
 
