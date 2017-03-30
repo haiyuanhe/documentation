@@ -17,7 +17,7 @@
   * [管理功能](part4/guan-li-gong-neng.md)
   * [探针管理](part4/collector.md)
 * [后台维护](backend.md)
-* [更新日志](geng-xin-ri-zhi.md)
+* 更新日志
 
 
 
