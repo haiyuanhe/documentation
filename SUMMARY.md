@@ -17,12 +17,8 @@
   * [管理功能](part4/guan-li-gong-neng.md)
   * [探针管理](part4/collector.md)
 * [后台维护](backend.md)
-<<<<<<< HEAD
-* 更新日志
-=======
 * [更新日志](/part5/log-list.md)
   * [2017-03](part5/2017-03.md)
->>>>>>> b343b5188912a89e1f9e9abf844d231b3c4464c6
 
 
 
