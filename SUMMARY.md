@@ -18,6 +18,7 @@
   * [探针管理](part4/collector.md)
 * [后台维护](backend.md)
 * [更新日志](/part5/log-list.md)
+  * [2017-07](part5/2017-07.md)
   * [2017-06](part5/2017-06.md)
   * [2017-05](part5/2017-05.md)
   * [2017-04](part5/2017-04.md)
