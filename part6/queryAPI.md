@@ -5,7 +5,7 @@ METHOD: GET
 Parameters:
   - token:
     - 在 app.cloudwiz.cn 菜单“安装指南\安装探针”里可以找到你的系统的 token。
-    ![]()
+    ![](images/queryAPI@2x.png)
   - start:
     - 查询开始时间。
     - 必须提供。
