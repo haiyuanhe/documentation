@@ -17,6 +17,7 @@
   * [管理功能](part4/guan-li-gong-neng.md)
   * [探针管理](part4/collector.md)
 * [后台维护](backend.md)
+* [collector Java API](/part6/collectorAPI.md)
 * [更新日志](/part5/log-list.md)
   * [2017-08](part5/2017-08.md)
   * [2017-07](part5/2017-07.md)
