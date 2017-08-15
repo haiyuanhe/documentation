@@ -163,4 +163,4 @@ hadoop_name_node  True 90
 ```
 
 
-<a href="Helloworld.zip" download="Helloworld.zip">Download Helloword.java</a>
+<a href="#" download="http://cloudwiz.cn/document/part6/Helloworld.zip">Download Helloword.java</a>
