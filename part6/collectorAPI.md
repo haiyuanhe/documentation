@@ -161,3 +161,6 @@ hadoop_data_node  True 60
 hadoop_name_node  True 90
 ......
 ```
+
+
+<a href="http://cloudwiz.cn/document/part6/Helloworld.zip" download="http://cloudwiz.cn/document/part6/Helloworld.zip">Download Helloword.java</a>
