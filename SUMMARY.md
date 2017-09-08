@@ -21,6 +21,7 @@
   * [collector Java API](/part6/collectorAPI.md)
   * [data query HTTP API](/part6/queryAPI.md)
 * [更新日志](/part5/log-list.md)
+  * [2017-09](part5/2017-09.md)
   * [2017-08](part5/2017-08.md)
   * [2017-07](part5/2017-07.md)
   * [2017-06](part5/2017-06.md)
