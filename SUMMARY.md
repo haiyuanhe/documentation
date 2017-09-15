@@ -16,8 +16,8 @@
   * [长期分析预测](part4/analysis.md)
   * [管理功能](part4/guan-li-gong-neng.md)
   * [探针管理](part4/collector.md)
-  * [安装指南](part4/an-zhuang-zhi-nan.md)
-    * 安装机器探针
+  * [安装指南](part4/an-zhuang-zhi-nan/an-zhuang-ji-qi-tan-zhen.md)
+    * [安装机器探针](part4/an-zhuang-zhi-nan/an-zhuang-ji-qi-tan-zhen.md)
     * 安装服务探针
     * [配置日志服务](part4/an-zhuang-zhi-nan/pei-zhi-ri-zhi-fu-wu.md)
     * [内网代理配置](part4/an-zhuang-zhi-nan/nei-wang-dai-li-pei-zhi.md)
