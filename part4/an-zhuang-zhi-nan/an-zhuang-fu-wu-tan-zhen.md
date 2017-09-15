@@ -109,7 +109,22 @@ Cloudwiz 服务探针支持以下服务：
         <td></td>
     </tr>
     <tr>
-        <td>SSDB</td>
+        <td>Tomcat</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>WebLogic</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Yarn</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Zookeeper</td>
         <td></td>
         <td></td>
     </tr>
