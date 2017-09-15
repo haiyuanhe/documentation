@@ -9,7 +9,7 @@
     * [图表\(graph\)](part4/ui_dashboard/graph.md)
     * [状态图\(singlestat\)](part4/ui_dashboard/singlestat.md)
     * [表格\(table\)](/part4/ui_dashboard/table.md)
-    * [饼图\(pie\)](part4/ui_dashboard/bing-56fe28-pie.md)
+    * [饼图\(pie\)](part4/ui_dashboard/pie.md)
   * [报警&关联分析](part4/alert_and_association.md)
   * [实时报警通知](part4/oncaller.md)
   * [自动异常探测](part4/annomaly.md)
