@@ -32,11 +32,6 @@ Cloudwiz 服务探针支持以下服务：
         <td>HRegionServer主要负责响应用户I/O请求，向HDFS文件系统中读写数据，是HBase中最核心的模块。</td>
     </tr>
     <tr>
-        <td>IIS</td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
         <td>Kafka</td>
         <td></td>
         <td></td>
