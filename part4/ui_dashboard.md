@@ -31,8 +31,11 @@
 ![](/part4/images/p4_8.png)
 
 ### 3.3 [表格(table)](/part4/ui_dashboard/table.md)
+![](/part4/images/table.png)
 
 ### 3.4 [饼图(pie)](/part4/ui_dashboard/pie.md)
+![](/part4/images/pie.png)
+
 
 
 
