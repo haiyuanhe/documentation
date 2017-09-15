@@ -36,6 +36,20 @@
 ### 3.4 [饼图(pie)](/part4/ui_dashboard/pie.md)
 ![](/part4/images/pie.png)
 
+## 4.时间控制
+
+面板的右上角能够对时间进行刷新和调整的地方. 如图
+
+![](/part4/images/p4_11.png)
+
+
+
+
+
+
+
+
+
 
 
 
