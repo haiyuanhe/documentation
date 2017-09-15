@@ -22,7 +22,7 @@
 
 ## 3.**面板类型**
 
-### 3.1 [折线图(graph)](/part4/ui_dashboard/graph.md)
+### 3.1 [图表(graph)](/part4/ui_dashboard/graph.md)
 
 ![](/part4/images/p4_7.png)
 

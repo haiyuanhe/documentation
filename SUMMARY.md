@@ -6,7 +6,7 @@
 * [功能介绍](part4/README.md)
   * [系统总览](part4/ui_summary.md)
   * [智能分析面板](part4/ui_dashboard.md)
-    * [折线图\(graph\)](part4/ui_dashboard/graph.md)
+    * [图表\(graph\)](part4/ui_dashboard/graph.md)
     * [状态图\(singlestat\)](part4/ui_dashboard/singlestat.md)
     * [表格\(table\)](/part4/ui_dashboard/table.md)
     * 饼图\(pie\)
