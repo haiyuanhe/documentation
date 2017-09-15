@@ -20,7 +20,7 @@
     * 安装机器探针
     * 安装服务探针
     * [配置日志服务](part4/an-zhuang-zhi-nan/pei-zhi-ri-zhi-fu-wu.md)
-    * 内网代理配置
+    * [内网代理配置](part4/an-zhuang-zhi-nan/nei-wang-dai-li-pei-zhi.md)
 * [后台维护](backend.md)
 * [API](/part6/collectorAPI.md)
   * [collector Java API](/part6/collectorAPI.md)
