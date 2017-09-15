@@ -25,7 +25,8 @@ path = /opt/cloudwiz-agent/altenv/var/log/filebeat.log
 pattern = ^[0-9]{4}-[0-9]{2}-[0-9]{2}
 ```
 
-## 2. 相关操作* 注意: 执行以下操作需要root权限
+## 2. 相关操作
+* 注意: 执行以下操作需要root权限
 完成以上配置后,请重启filebeat
 
 ``` shell
