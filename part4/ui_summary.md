@@ -11,3 +11,5 @@
 
 ### 2.1 创建服务依赖
 
+![](/part4/images/service_dep.gif)
+
