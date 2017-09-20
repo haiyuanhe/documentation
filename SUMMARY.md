@@ -17,6 +17,7 @@
     * [表格\(table\)](/part4/ui_dashboard/table.md)
   * [智能检测](part4/alert_and_association.md)
   * [自动异常探测](part4/annomaly.md)
+  * [日志查看](part4/an-zhuang-zhi-nan/ri-zhi-cha-kan.md)
   * [运维轮班](part4/oncaller.md)
   * [管理功能](part4/guan-li-gong-neng.md)
   * [探针管理](part4/collector.md)
