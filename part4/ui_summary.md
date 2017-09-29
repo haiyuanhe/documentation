@@ -13,3 +13,6 @@
 
 ![](/part4/images/service_dep.gif)
 
+### 2.2 机器状态
+
+![](/part4/images/host_topology.gif)
