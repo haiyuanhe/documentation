@@ -7,7 +7,11 @@
 高管驾驶舱概述当前不同系统的状态![](/part4/images/p4_2.png)
 
 ## 2.**系统总览**
-系统总览页面展示反应当前系统健康状况的关键指标信息![](/part4/images/p4_33.png)
+系统总览页面展示反应当前系统健康状况的关键指标信息
+
+![](/part4/images/summary_service.png)
+
+![](/part4/images/summary_host.png)
 
 ### 2.1 创建服务依赖
 
