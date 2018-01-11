@@ -1,60 +1,38 @@
 # 日志服务配置
 
-## 1. 修改日志配置文件
-查找配置文件
 
-``` shell
-/opt/cloudwiz-agent/filebeat/user.conf
-# 注：windows用户请查找 c:\opt\cloudwiz-agent\filebeat\user.conf
-```
+## 1.日志配置简介
 
-修改配置文件
+用户可以在 日志分析>>日志管理 中配置日志信息
 
-``` shell
-# 一个日志的名字 命名规则log_x, x是字母数字的字符串
-[log_x]
+## 2.参数说明
 
-# 搜索使用的_type
-document_type = filebeat
+规则名称: 指定日志规则名称
 
-# 需要上传的日志路径,多个路径请使用","隔开
-# 注: windows用户 path = c:\opt\cloudwiz-agent\altenv\var\log\filebeat.log
-path = /opt/cloudwiz-agent/altenv/var/log/filebeat.log
+服务: 指定日志所属服务,支持用户所部署使用的服务,亦支持用户自主开发的自定义服务(请选择"其他",并填写自定义服务名称)
 
-# 标记上传日志的开始的正则表达式,若没有这个属性,则默认为空字符串
-pattern = ^[0-9]{4}-[0-9]{2}-[0-9]{2}
-```
+日志类型: 指定日志类型,平台提供默认日志类型,亦支持用户自定义日志类型(请选择"其他",并填写自定义类型名称)
 
-## 2. 相关操作
-* 注意: 执行以下操作需要root权限
-完成以上配置后,请重启filebeat
+日志文件: 指定日志在主机上的绝对路径,支持glob匹配规则,请点击"添加"按钮
 
-``` shell
-/opt/cloudwiz-agent/altenv/bin/supervisorctl restart cloudwiz-agent:filebeat
-```
+格式: 指定日志内容格式
 
-完成安装启动后,您可以检查其状态
+单行: 指定日志内容格式为单行
 
-``` shell
-/opt/cloudwiz-agent/altenv/bin/supervisorctl status
-```
+多行: 指定日志内容格式为多行,请填写日志起始内容的匹配规则
 
-如果显示以下信息,则说明配置成功
-``` shell
-cloudwiz-agent:collector RUNNING pid 4818, uptime 5 days, 15:32:59
-cloudwiz-agent:filebeat RUNNING pid 45495, uptime 3 days, 20:14:35
-cloudwiz-agent:uagent RUNNING pid 4817, uptime 5 days, 15:32:59
-```
+解析器:
 
-停止
-``` shell
-/opt/cloudwiz-agent/altenv/bin/supervisorctl stop cloudwiz-agent:filebeat
-```
+解析器名称: 指定解析器名称,仅支持英文字母/数字/下划线/小数点
 
-启动
-``` shell
-/opt/cloudwiz-agent/altenv/bin/supervisorctl start cloudwiz-agent:filebeat
-```
+匹配规则: 请填写grok规则的匹配规则
 
-## 3. 了解更多
-如果您想了解更多关于filebeat的相关信息， 请[点击这里](https://www.elastic.co/guide/en/beats/filebeat/current/configuration-filebeat-options.html)
+测试文本: 请粘贴日志文本,点击"测试"按钮,显示测试结果
+
+部署机器: 指定日志规则所部署的机器
+
+## 3.查询日志
+
+用户可以在 日志分析>>日志搜索 中查看日志信息
+
+您可以在 帮助文档 查看操作指南
