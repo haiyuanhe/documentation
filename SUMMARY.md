@@ -16,6 +16,7 @@
     * [饼图\(pie\)](part4/ui_dashboard/pie.md)
     * [表格\(table\)](/part4/ui_dashboard/table.md)
   * [智能检测](part4/alert_and_association/alert_and_association.md)
+    * [报警规则检测](part4/alert_and_association/alert_and_association.md)
     * [自动异常探测](part4/alert_and_association/annomaly.md)
   * [日志分析](part4/an-zhuang-zhi-nan/ri-zhi-cha-kan.md)
   * [故障溯源](part4/an-zhuang-zhi-nan/gu-zhang-su-yuan.md)
