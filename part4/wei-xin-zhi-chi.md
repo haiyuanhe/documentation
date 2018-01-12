@@ -15,3 +15,7 @@
 * 2） 接收报警信息
 
 ## 3.绑定示例
+![](/part4/images/wechat_1.jpeg)
+![](/part4/images/wechat_2.jpeg)
+![](/part4/images/wechat_3.jpeg)
+![](/part4/images/wechat_4.jpeg)
