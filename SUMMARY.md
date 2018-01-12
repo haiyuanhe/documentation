@@ -25,6 +25,7 @@
   * [运维轮班](part4/oncaller.md)
   * [管理功能](part4/guan-li-gong-neng.md)
   * [探针管理](part4/collector.md)
+  * [微信支持](part4/wei-xin-zhi-chi.md)
 * [API](/part6/collectorAPI.md)
   * [collector Java API](/part6/collectorAPI.md)
   * [data query HTTP API](/part6/queryAPI.md)
