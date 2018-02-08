@@ -109,17 +109,36 @@ Cloudwiz 服务探针支持以下服务：
 
 ## 3. 修改探针状态
 
+### 3.1 Linux平台下操作
+
 查看探针列表信息
 ``` shell
 $ /opt/cloudwiz-agent/agent/collector_mgr.py list
 ```
 
-关闭不需要监控的服务探针
+关闭探针
 ``` shell
 $ /opt/cloudwiz-agent/agent/collector_mgr.py disable <探针名字>
 ```
 
-启动需要监控的服务探针
+启动探针
 ``` shell
 $ /opt/cloudwiz-agent/agent/collector_mgr.py enable <探针名字>
+```
+
+### 3.2 Windows平台下操作
+
+查看探针列表信息
+``` shell
+$ /opt/cloudwiz-agent/agent/collector_mgr.exe list
+```
+
+关闭探针
+``` shell
+$ /opt/cloudwiz-agent/agent/collector_mgr.exe disable <探针名字>
+```
+
+启动探针
+``` shell
+$ /opt/cloudwiz-agent/agent/collector_mgr.exe enable <探针名字>
 ```
