@@ -14,7 +14,7 @@
 ![](/part4/images/summary_host.png)
 
 ### 2.1 创建服务依赖
-> 创建服务依赖入口修改至 实时监控>>服务
+> 创建服务依赖入口修改至 实时监控>>服务>>服务总览
 
 ![](/part4/images/service_dep.gif)
 
