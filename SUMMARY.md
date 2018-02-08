@@ -2,7 +2,6 @@
 
 * [Cloudwiz 智能监控平台简介](README.md)
 * [快速开始](part1/basic_function.md)
-* [软硬件环境](part2/software_and_hardware_environment.md)
 * [功能介绍](part4/README.md)
   * [安装指南](part4/an-zhuang-zhi-nan/an-zhuang-ji-qi-tan-zhen.md)
     * [安装机器探针](part4/an-zhuang-zhi-nan/an-zhuang-ji-qi-tan-zhen.md)
@@ -29,6 +28,7 @@
 * [API](/part6/collectorAPI.md)
   * [collector Java API](/part6/collectorAPI.md)
   * [data query HTTP API](/part6/queryAPI.md)
+* [软硬件环境](part2/software_and_hardware_environment.md)
 * [更新日志](/part5/log-list.md)
   * [2017-12](part5/2017-12.md)
   * [2017-11](part5/2017-11.md)
