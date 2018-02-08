@@ -23,5 +23,5 @@
 
 ![](/part5/images/log.gif)
 
-*** 配置日志收集内容，可通过 [日志分析>>日志管理](/part4/an-zhuang-zhi-nan/pei-zhi-ri-zhi-fu-wu.md) 进行配置
+*** 配置日志收集内容，可通过 [系统配置>>日志解析](/part4/an-zhuang-zhi-nan/pei-zhi-ri-zhi-fu-wu.md) 进行配置
 
