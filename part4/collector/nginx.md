@@ -9,9 +9,11 @@ nginx 探针的实现主要是依赖 nginx_status api 接口, 可以nginx 配置
 ### Linux系统
 
 1）在监控平台的菜单 『系统配置』 >>『探针管理』中选择"Nginx"编辑
+
 ![](/part4/images/Nginx1.png)
 
 2）修改配置，启动探针
+
 ![](/part4/images/Nginx2.png)
 
 > 参数说明
