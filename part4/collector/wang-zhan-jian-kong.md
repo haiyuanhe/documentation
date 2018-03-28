@@ -71,5 +71,7 @@ collector_mgr.exe enable response_time
 ![](/part4/images/response_time5.png)
 
 > 指标名称： responsetime.state
+
 > 紧急报警条件： 当指标值 > 阈值 0 ，并持续时间达 1 分钟，则触发紧急报警
+
 > 警告报警条件： 当指标值 > 阈值 0 ，并持续时间达 1 分钟，则触发警告报警
