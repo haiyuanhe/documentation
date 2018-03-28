@@ -49,10 +49,10 @@ urls: {
 cd c:\\opt\cloudwiz-agent\agent\
 
 // 查看探针启动状态
-collector_mgr.py list
+collector_mgr.exe list
 
 // 启动response_time探针
-collector_mgr.py enable response_time
+collector_mgr.exe enable response_time
 ```
 
 
