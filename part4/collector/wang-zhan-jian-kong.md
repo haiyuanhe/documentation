@@ -51,7 +51,7 @@ urls: {
 > responsetime.state 服务状态(0: 正常[返回200]，1: 不正常[返回非200]) 
 > tag设置 tag: url:*
 
-## 3. 设置报警规则
+## 3. 设置报警规则(例)
 
 ![](/part4/images/response_time5.png)
 
