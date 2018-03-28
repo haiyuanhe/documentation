@@ -44,10 +44,17 @@ urls: {
 > 参数同Linux
 
 2） 启动探针
-``` bash
-cd c:\\opt\cloudwiz-agent\agent\
 
 ```
+cd c:\\opt\cloudwiz-agent\agent\
+
+// 查看探针启动状态
+collector_mgr.py list
+
+// 启动response_time探针
+collector_mgr.py enable response_time
+```
+
 
 ## 2. 仪表盘监控相关指标
 
