@@ -61,7 +61,9 @@ collector_mgr.exe enable response_time
 ![](/part4/images/response_time4.png)
 
 > responsetime.duration 服务器相应时间 
+
 > responsetime.state 服务状态(0: 正常[返回200]，1: 不正常[返回非200]) 
+
 > tag设置 tag: url:*
 
 ## 3. 设置报警规则(例)
