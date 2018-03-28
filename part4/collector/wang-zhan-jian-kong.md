@@ -43,6 +43,12 @@ urls: {
 
 > 参数同Linux
 
+2） 启动探针
+``` bash
+cd c:\\opt\cloudwiz-agent\agent\
+
+```
+
 ## 2. 仪表盘监控相关指标
 
 ![](/part4/images/response_time4.png)

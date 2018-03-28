@@ -24,6 +24,7 @@
 * [管理功能](part4/guan-li-gong-neng.md)
 * [应用场景](part4/collector.md)
   * [网站监控](part4/collector/wang-zhan-jian-kong.md)
+  * [Nginx](part4/collector/nginx.md)
 * [微信支持](part4/wei-xin-zhi-chi.md)
 * [API](/part6/collectorAPI.md)
   * [collector Java API](/part6/collectorAPI.md)
