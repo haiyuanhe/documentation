@@ -34,6 +34,7 @@
   * [data query HTTP API](/part6/queryAPI.md)
 * [软硬件环境](part2/software_and_hardware_environment.md)
 * [更新日志](/part5/log-list.md)
+  * [2018-09](part5/2018-09.md)
   * [2018-08](part5/2018-08.md)
   * [2018-07](part5/2018-07.md)
   * [2018-03](part5/2018-03.md)
