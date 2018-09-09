@@ -7,6 +7,7 @@
   * [安装服务探针](part4/an-zhuang-zhi-nan/an-zhuang-fu-wu-tan-zhen.md)
   * [配置日志服务](part4/an-zhuang-zhi-nan/pei-zhi-ri-zhi-fu-wu.md)
   * [内网代理配置](part4/an-zhuang-zhi-nan/nei-wang-dai-li-pei-zhi.md)
+  * [Azure服务监控](part4/an-zhuang-zhi-nan/azurefu-wu-jian-kong.md)
 * [系统总览](part4/ui_summary.md)
 * [可视化面板](part4/ui_dashboard.md)
   * [图表\(graph\)](part4/ui_dashboard/graph.md)
