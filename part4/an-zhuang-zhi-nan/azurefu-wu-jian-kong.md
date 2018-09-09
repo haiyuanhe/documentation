@@ -42,17 +42,17 @@
  
  创建应用
  
-![](/part4/images/Azure4.png)
+![](/part4/images/Azure11.png)
  
  获取应用程序ID
 ![](/part4/images/Azure3.png)
  
  创建应用密钥
  
-![](/part4/images/Azure6.png)
+![](/part4/images/Azure4.png)
  
  设置只读权限
-![](/part4/images/Azure1.png)
+![](/part4/images/Azure10.png)
 
  ### 2.5 Client Secret(应用程序密钥)
  
@@ -62,7 +62,7 @@
  
  > 2.请记录密钥过期时间，若已过期，请及时更新，以免影响数据正常采集
  
-![](/part4/images/Azure1.png)
+![](/part4/images/Azure4.png)
 
  
  ### 2.5 指标存储配置
@@ -71,19 +71,19 @@
  
  监控平台配置
  
-![](/part4/images/Azure1.png)
+![](/part4/images/Azure7.png)
  
  Azure平台查看密钥
  
-![](/part4/images/Azure1.png)
+![](/part4/images/Azure6.png)
  
  若Azure平台提示未注册Microsoft.insights资源提供服务,如下图所示
  
-![](/part4/images/Azure1.png)
+![](/part4/images/Azure8.png)
  
  则请注册该服务
  
-![](/part4/images/Azure1.png)
+![](/part4/images/Azure9.png)
  
  
 附：支持服务列表
