@@ -44,7 +44,13 @@ route add 52.83.193.232 mask 255.255.255.255 10.9.187.78 metric 1 -p
 ```bash
 route print
 ```
-> 注意，这里能够看到三个外网地址，Destination --> 106.75.91.106, Destination --> 117.50.2.225，Destination --> 52.83.193.232, Gateway --> 跳板机IP
+> 注意，这里能够看到三个外网地址
+
+> Destination --> 106.75.91.106, 
+
+> Destination --> 117.50.2.225，
+
+> Destination --> 52.83.193.232, Gateway --> 跳板机IP
 
 ### 3.修改跳板机
 
