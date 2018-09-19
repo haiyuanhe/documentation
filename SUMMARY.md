@@ -20,7 +20,7 @@
 * [分析诊断](part4/zhi-neng-fen-xi/zhen-duan-zhu-shou.md)
   * [诊断助手](part4/zhi-neng-fen-xi/zhen-duan-zhu-shou.md)
   * [健康报告](part4/zhi-neng-fen-xi/jian-kang-bao-gao.md)
-  * 资源消耗
+  * [资源消耗](part4/zhi-neng-fen-xi/zi-yuan-xiao-hao.md)
   * [故障溯源](part4/zhi-neng-fen-xi/gu-zhang-su-yuan.md)
   * [日志分析](part4/zhi-neng-fen-xi/ri-zhi-cha-kan.md)
   * 资源预测
