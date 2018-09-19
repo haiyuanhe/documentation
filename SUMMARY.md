@@ -17,7 +17,7 @@
 * [实时报警](part4/alert_and_association/alert_and_association.md)
   * [报警规则检测](part4/alert_and_association/alert_and_association.md)
   * [自动异常探测](part4/alert_and_association/annomaly.md)
-* [分析诊断](part4/zhi-neng-fen-xi/gu-zhang-su-yuan.md)
+* [分析诊断](part4/zhi-neng-fen-xi/zhen-duan-zhu-shou.md)
   * [诊断助手](part4/zhi-neng-fen-xi/zhen-duan-zhu-shou.md)
   * [健康报告](part4/zhi-neng-fen-xi/jian-kang-bao-gao.md)
   * 资源消耗

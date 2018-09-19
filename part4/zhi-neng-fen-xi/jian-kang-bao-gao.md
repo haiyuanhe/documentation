@@ -2,7 +2,7 @@
 
 多维度分析系统现状，为系统优化改进提供科学依据
 
-![](/part4/images/report.png)
+![](/part4/images/report_demo.png)
 
 ## 1.设置巡检报告
 
@@ -14,7 +14,7 @@
 
 成功设置巡检报告内容后，用户将于之后的每周一收到巡检报告，该报告由Cloudwiz智能监控平台自动生成
 
-![](/part4/images/report_demo.png)
+![](/part4/images/report.png)
 
 ## 3.专家报告
 
