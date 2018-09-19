@@ -18,9 +18,12 @@
   * [报警规则检测](part4/alert_and_association/alert_and_association.md)
   * [自动异常探测](part4/alert_and_association/annomaly.md)
 * [分析诊断](part4/zhi-neng-fen-xi/gu-zhang-su-yuan.md)
+  * [诊断助手](part4/zhi-neng-fen-xi/zhen-duan-zhu-shou.md)
+  * [健康报告](part4/zhi-neng-fen-xi/jian-kang-bao-gao.md)
+  * 资源消耗
   * [故障溯源](part4/zhi-neng-fen-xi/gu-zhang-su-yuan.md)
   * [日志分析](part4/zhi-neng-fen-xi/ri-zhi-cha-kan.md)
-  * [健康报告](part4/zhi-neng-fen-xi/jian-kang-bao-gao.md)
+  * 资源预测
 * [运维轮班](part4/oncaller.md)
 * [管理功能](part4/guan-li-gong-neng/ge-ren-zhong-xin.md)
   * [个人中心](part4/guan-li-gong-neng/ge-ren-zhong-xin.md)
