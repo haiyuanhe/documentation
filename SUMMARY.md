@@ -23,7 +23,7 @@
   * [资源消耗](part4/zhi-neng-fen-xi/zi-yuan-xiao-hao.md)
   * [故障溯源](part4/zhi-neng-fen-xi/gu-zhang-su-yuan.md)
   * [日志分析](part4/zhi-neng-fen-xi/ri-zhi-cha-kan.md)
-  * 资源预测
+  * [资源预测](part4/zhi-neng-fen-xi/zi-yuan-yu-ce.md)
 * [运维轮班](part4/oncaller.md)
 * [管理功能](part4/guan-li-gong-neng/ge-ren-zhong-xin.md)
   * [个人中心](part4/guan-li-gong-neng/ge-ren-zhong-xin.md)
