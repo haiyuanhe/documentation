@@ -1,6 +1,6 @@
 # 饼图
 ## 1. 创建饼图
-![](/part4/images/create_pie.gif)
+![](/part4/images/piechart.png)
 
 ## 2. 参数说明
 

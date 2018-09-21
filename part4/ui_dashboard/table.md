@@ -1,6 +1,6 @@
 # 表格
 ## 1. 创建表格
-![](/part4/images/create_table.gif)
+![](/part4/images/table.png)
 
 ## 2. 参数说明
 

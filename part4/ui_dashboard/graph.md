@@ -1,6 +1,6 @@
 # 图表
 ## 1. 创建图表
-![](/part4/images/create_graph.gif)
+![](/part4/images/graph.png)
 
 ## 2. 参数说明
 

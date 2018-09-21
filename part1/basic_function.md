@@ -62,8 +62,6 @@ powershell -Command if ( !(Test-Path C:\tmp)){ new-item -path c:\ -name tmp -typ
 
 ```
 
-
-
 注意：安装命令中的参数，请以登录后的「安装指南」为准
 更多安装方式，请看[安装机器探针](/part4/an-zhuang-zhi-nan/an-zhuang-ji-qi-tan-zhen.md)
 
