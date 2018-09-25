@@ -1,0 +1,28 @@
+{
+  "title": "Cloudwiz 产品使用说明",
+  "gitbook": ">=2.0.0",
+  "language": "zh-hans",
+  "root": ".",
+  "plugins": [
+    "components",
+    "favicon",
+    "toggle-chapters"
+  ],
+  "pluginsConfig": {
+    "components": {
+      "templatePath": "./layout",
+      "templates": [
+        {
+          "name": "header",
+          "target": "body",
+          "prepend": "true"
+        }
+      ]
+    },
+    "favicon": {
+      "shortcut": "./favicon.ico",
+      "bookmark": "./favicon.ico",
+      "appleTouch": "./favicon.ico"
+    }
+  }
+}
