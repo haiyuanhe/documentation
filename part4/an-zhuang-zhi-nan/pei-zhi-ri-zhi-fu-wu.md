@@ -10,28 +10,19 @@
 
 * 1) 通过关键词/过滤条件等筛选所需日志
 
-    ![](/part4/images/log_query.png)
+    ![](/part5/images/log1-18-10-18.jpeg)
     
     > 双击日志可查看该日志上下文
 
-* 2) 合同类日志
+* 2) 聚合同类日志
 
-    ![](/part4/images/log_cluster.png)
+    ![](/part5/images/log4-18-10-18.jpeg)
+
+* 3) 日志对比
+
+    ![](/part5/images/log5-18-10-18.jpeg)
     
-    ![](/part4/images/log_cluster_2.png)
-
-* 3) 对比不同日志相同时段日志
-
-    ![](/part4/images/log_compare.png)
-
-
-* 4) 横向对比任意时间切片上的日志
-
-    ![](/part4/images/log_compare_h1.png)
-
-    ![](/part4/images/log_compare_h2.png)
-    
-* 5) 日志解析可视化展示
+* 4) 日志解析可视化展示
 
     ![](/part4/images/log_process.png)
 
