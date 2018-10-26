@@ -16,7 +16,7 @@
     * [表格\(table\)](/part4/ui_dashboard/table.md)
   * [日志](part4/zhi-neng-fen-xi/ri-zhi-cha-kan.md)
   * [机器](part4/zhi-neng-fen-xi/ji-qi.md)
-  * 服务
+  * [服务](part4/zhi-neng-fen-xi/fu-wu.md)
 * [实时报警](part4/alert_and_association/alert_and_association.md)
   * [报警规则](part4/alert_and_association/alert_and_association.md)
   * [智能报警](part4/alert_and_association/annomaly.md)
