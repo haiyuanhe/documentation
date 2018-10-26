@@ -8,13 +8,13 @@
 
 用户可以根据所需指定巡检报告内容
 
-![](/part4/images/report_setting.png)
+![](/part5/images/report-18-10-10.png)
 
 ## 2.定期获得巡检报告
 
 成功设置巡检报告内容后，用户将于之后的每周一收到巡检报告，该报告由Cloudwiz智能监控平台自动生成
 
-![](/part4/images/report.png)
+![](/part5/images/report2-18-10-10.png)
 
 ## 3.专家报告
 
