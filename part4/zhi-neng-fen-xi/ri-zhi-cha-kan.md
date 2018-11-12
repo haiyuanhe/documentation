@@ -12,18 +12,21 @@
 
 "日志查看"可以默认查看6个小时之内的日志信息，用户可以通过关键词搜索，修改日志显示数量等定位所需查看日志.
 
-![](/part5/images/log1-18-10-18.jpeg)
+![](/part5/images/log-18-11-12.png)
 
 ## 2. 日志聚合
 "日志聚合"将海量日志做聚合处理，以供用户清晰得查看日志.
 
-![](/part5/images/log4-18-10-18.jpeg)
+![](/part5/images/log_cluster-18-11-12.png)
 
 ## 3. 日志对比
 
 "日志对比"可以查看日志的增减情况.
 
-![](/part5/images/log5-18-10-18.jpeg)
+![](/part5/images/log_compare_18-11-12.png)
+
 
 *** 配置日志收集内容，可通过 [系统配置>>日志管理](/part4/an-zhuang-zhi-nan/pei-zhi-ri-zhi-fu-wu.md) 进行配置
+
+
 
