@@ -10,17 +10,17 @@
 
 * 1) 通过关键词/过滤条件等筛选所需日志
 
-    ![](/part5/images/log1-18-10-18.jpeg)
+    ![](/part5/images/log-18-11-12.png)
     
     > 双击日志可查看该日志上下文
 
 * 2) 聚合同类日志
 
-    ![](/part5/images/log4-18-10-18.jpeg)
+    ![](/part5/images/log_cluster-18-11-12.png)
 
 * 3) 日志对比
-
-    ![](/part5/images/log5-18-10-18.jpeg)
+    
+    ![](/part5/images/log_compare_18-11-12.png)
     
 * 4) 日志解析可视化展示
 
