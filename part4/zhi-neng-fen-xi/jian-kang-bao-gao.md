@@ -2,7 +2,7 @@
 
 多维度分析系统现状，为系统优化改进提供科学依据
 
-![](/part4/images/report_demo.png)
+![](/part4/images/report_18-11-19.png)
 
 ## 1.设置巡检报告
 
