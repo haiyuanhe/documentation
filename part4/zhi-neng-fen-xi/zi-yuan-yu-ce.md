@@ -4,8 +4,4 @@
 
 用户仅需选择指定机器节点，即可查看CPU、内存、磁盘等资源消耗情况的现状以及预测结果。
 
-![](/part5/images/0910_predict01.jpeg)
-
-![](/part5/images/0910_predict02.jpeg)
-
-> 黄色折线为资源真实消耗值，绿色线为长期预测上限，紫色线为长期预测下限。
+![](/part4/images/prediction.png)

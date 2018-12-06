@@ -8,4 +8,4 @@
 
 3）点击列表任一进程项，可查看该进程资源消耗情况
 
-![](/part4/images/topn_process.png)
+![](/part5/images/resource-18-12-06.png)
