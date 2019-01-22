@@ -30,19 +30,22 @@
 
 * ### Linux
 
-    请在【系统配置】>>【日志解析】中进行Linux日志解析
+    请在【系统配置】>>【日志收集】中进行Linux日志收集
     
-    1) 探针将自动扫描机器可收集的日志，并显示在下图中的“可新增”日志中
+    1) 探针将自动扫描机器可收集的日志
     
-    ![](/part4/images/log_collector.png)
+    ![](/part5/images/log_collectors-19-01-18.png)
     
     2）保存正确的日志路径后，平台校验初始化后，即可采集日志
     
-    ![](/part4/images/log_collector2.png)
+    ![](/part5/images/logs_collectors_recommend-19-01-18.png)
     
     3）成功收集日志后，若是通用服务日志，平台将自动匹配其解析器，若是用户自定义日类型，则会显示未配置解析器，需用户选择字段进行解析
 
     ![](/part4/images/log_parse.png)
+    
+    ![](/part5/images/logs_parselist-19-01-18.png)
+
 
 * ### Windows
 
