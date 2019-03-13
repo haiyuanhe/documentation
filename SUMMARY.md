@@ -41,6 +41,7 @@
   * [data query HTTP API](/part6/queryAPI.md)
 * [私有化部署所需环境](part2/software_and_hardware_environment.md)
 * [更新日志](/part5/log-list.md)
+  * [2019-03](part5/2019-03.md)
   * [2019-01](part5/2019-01.md)
   * [2018-12](part5/2018-12.md)
   * [2018-11](part5/2018-11.md)
@@ -59,5 +60,5 @@
   * [2017-07](part5/2017-07.md)
   * [2017-06](part5/2017-06.md)
   * [2017-05](part5/2017-05.md)
-  * [2017-04](part5/2017-04.md)
+  * 2019-03
 
