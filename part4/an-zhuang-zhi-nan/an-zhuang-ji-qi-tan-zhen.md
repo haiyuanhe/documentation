@@ -73,7 +73,7 @@ linux
 # 切换到探针的安装目录，例如安装目录是/opt,则执行如下命令，停止探针进程
 cd /opt
 /opt/cloudwiz-agent/cloudwiz-agent stop
-# 再执行命令,删除目录/data/opt/下的探针
+# 再执行命令,删除目录/opt/下的探针
 rm -rf /opt/cloudwiz-agent
 ```
 
