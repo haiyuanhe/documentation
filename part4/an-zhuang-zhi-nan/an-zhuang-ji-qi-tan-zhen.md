@@ -55,11 +55,44 @@ powershell -Command { if ( !(Test-Path C:\tmp)){ new-item -path c:\ -name tmp -t
 详情请见登录系统后的「安装指南」
 
 ## 3. 启动探针
+linux
 ``` shell
-sudo /etc/init.d/cloudwiz-agent start
+sudo /opt/cloudwiz-agent/cloudwiz-agent start
+```
+
+windows
+```
+# 请使用管理员启动cmd运行以下命令
+sc start cloudwiz-agent:collector
+```
+
+## 4. 卸载探针
+
+linux
+```
+# 切换到探针的安装目录，例如安装目录是/opt,则执行如下命令，停止探针进程
+cd /opt
+/opt/cloudwiz-agent/cloudwiz-agent stop
+# 再执行命令,删除目录/data/opt/下的探针
+rm -rf /opt/cloudwiz-agent
 ```
 
 windows
 ``` shell
-/opt/cloudwiz-agent/altenv/bin/supervisorctl.bat start all
+# 执行cmd命令 sc stop cloudwiz-agent:collector 停止运行的探针
+sc stop cloudwiz-agent:collector
+# 执行cmd命令 sc stop cloudwiz-agent:filebeat  停止运行的filebeat
+sc stop cloudwiz-agent:filebeat
+# 执行cmd命令 sc stop winlogbeat   停止运行的winlogbeat
+sc stop winlogbeat
+
+
+# 执行cmd命令 sc delete cloudwiz-agent:collector 删除探针
+sc delete cloudwiz-agent:collector
+# 执行cmd命令 sc delete cloudwiz-agent:filebeat  删除filebeat
+sc delete cloudwiz-agent:filebeat
+# 执行cmd命令 sc delete winlogbeat   删除winlogbeat
+sc delete winlogbeat
+
+# 打开本地磁盘C，右键点击opt文件夹，点击删除，成功删除探针
 ```
