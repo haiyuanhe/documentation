@@ -130,15 +130,15 @@ $ /opt/cloudwiz-agent/agent/collector_mgr.py enable <探针名字>
 
 查看探针列表信息
 ``` shell
-$ /opt/cloudwiz-agent/agent/collector_mgr.exe list
+$ pushd C:\opt\cloudwiz-agent\agent & C:\opt\cloudwiz-agent\altenv\bin\python.exe collector_mgr.py list & popd
 ```
 
 关闭探针
 ``` shell
-$ /opt/cloudwiz-agent/agent/collector_mgr.exe disable <探针名字>
+$ pushd C:\opt\cloudwiz-agent\agent & C:\opt\cloudwiz-agent\altenv\bin\python.exe collector_mgr.py enable <conf_name, e.g.tomcat> & popd
 ```
 
 启动探针
 ``` shell
-$ /opt/cloudwiz-agent/agent/collector_mgr.exe enable <探针名字>
+$ pushd C:\opt\cloudwiz-agent\agent & C:\opt\cloudwiz-agent\altenv\bin\python.exe collector_mgr.py disable <conf_name, e.g.tomcat> & popd
 ```
