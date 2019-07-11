@@ -36,6 +36,7 @@
 * [个人中心](part4/guan-li-gong-neng/ge-ren-zhong-xin.md)
   * [个人中心](part4/guan-li-gong-neng/ge-ren-zhong-xin.md)
   * [公司管理](part4/guan-li-gong-neng/gong-si-guan-li.md)
+  * [权限管理](part4/guan-li-gong-neng/quan-xian-guan-li.md)
 * [API](/part6/collectorAPI.md)
   * [collector Java API](/part6/collectorAPI.md)
   * [data query HTTP API](/part6/queryAPI.md)

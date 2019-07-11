@@ -1,32 +1,76 @@
 # **公司管理**
 
-> 公司管理员可对公司用户、系统、角色进行管理
+# **1. 公司管理**
 
-## **1. 用户管理**
+1.1 进入公司管理
 
-用户管理中，公司管理员可修改公司名称、查询/邀请/删除/编辑用户
+在监控平台页面，点击右上角头像，选择”公司管理“，即可进入公司管理页面。
+
+![](/part4/images/org_manage.png)
+
+1.2 修改公司信息
+
+在公司管理页面，点击公司名称右侧图标，修改后保存即可。
+
+![](/part4/images/org_name.png)
+
+## **2. 所有用户**
+
+2.1 邀请用户
 
 ![](/part4/images/org_user.png)
 
-## **2. 子系统管理**
+2.2 切换用户组
 
-平台支持多系统管理，为不同系统分配不同的人员管理，既可做到责任划分，又可统一查看系统状态信息
+![](/part4/images/org_user_group.png)
+
+2.3 修改用户信息
+
+![](/part4/images/org_user_info.png)
+
+2.4 重置密码
+
+![](/part4/images/org_user_pwd.png)
+
+2.5 删除用户
+
+![](/part4/images/org_user_delete.png)
+
+
+## **3. 系统管理**
+
+3.1 新建系统
 
 ![](/part4/images/org_system.png)
 
-## **3. 角色管理**
+3.2 系统排序
 
-角色管理中，公司管理员可对不同的角色划分不同权限
+![](/part4/images/org_system_sort.png)
 
-![](/part4/images/org_role.png)
+3.3 编辑系统名称
 
-![](/part4/images/org_permission.png)
+![](/part4/images/org_system_name.png)
 
-## **4. 邀请用户**
+3.4 批量删除
 
-显示正在邀请的用户列表，亦可点击“新建”邀请新用户
+![](/part4/images/org_system_delete.png)
 
-![](/part4/images/org_invitelist.png)
+## **4. 等待邀请**
+
+4.1 复制邀请
+
+复制邀请后，公司管理员可将邀请链接发送给相应待邀请人员，以完成后续注册。
+
+4.2 撤销邀请
+
+公司管理员可撤销对等待邀请列表中的未注册用户的邀请。
+
+4.3 批量撤销
+
+公司管理员可对待邀请用户进行批量撤销邀请。
+
+![](/part4/images/org_invite_wait.png)
+
 
 
 
