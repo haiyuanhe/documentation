@@ -13,8 +13,6 @@ nginx -V
 
 ## 修改nginx配置文件
 ```
-vi nginx.conf
-
 # monitor server
 server {
   # 指定端口号，以8081为例
@@ -65,7 +63,16 @@ uri = /nginx_status #默认是访问http://localhost:80/nginx_status 如有需�
 
 ## nginx指标概览
 
-
+指标名称	| 指标描述_中文	| 指标描述_英文
+---|---|---
+nginx.active_connections|	用户正在使用的连接数|	"The current number of active client connections.
+nginx.number_requests_reading|	正在读请求的连接数|	The current number of (accepted) connections from clients where nginx is reading the request (at the time the status module was queried.)
+nginx.number_requests_waiting|	空闲（等待请求）的连接数|	The current number of connections from clients that are in the Idle / Waiting state (waiting for a request.)
+nginx.number_requests_writing|	正在写响应的连接数|	The current number of connections from clients where nginx is writing a response back to the client.
+nginx.state|	服务的当前状态（0表示正常，1表示异常）|	The current state of the service (0 indicates normal, 1 indicates an exception)
+nginx.total_accepted_connections|	已经接受的连接总数|	The total number of accepted client connections (shown as count).
+nginx.total_handled_connections|	已经处理过的连接总数|	The total number of handled connections.
+nginx.total_number_handled_requests|	用户请求总数|	"The total number of client requests.
 
 
 
