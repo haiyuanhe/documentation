@@ -11,14 +11,13 @@
 ### linux
 
 ```
-sudo ORG_TOKEN=<orgTtoken> CLIENT_ID=<clientId> SYSTEM_ID=<systemId> METRIC_SERVER_HOST=<metric_server_host> ALERTD_SERVER=<alert_server> AGENT_URL=https://download.cloudwiz.cn/agent bash -c "$(curl -kL https://download.cloudwiz.cn/agent/deploy_agent.sh)"
+sudo INSTALL_DIR=/opt ORG_TOKEN=<orgTtoken> CLIENT_ID=<clientId> SYSTEM_ID=<systemId> METRIC_SERVER_HOST=<metric_server_host> ALERTD_SERVER=<alert_server> AGENT_URL=<agent_url> bash -c "$(curl -kL <deploy_bash>)"
 ```
 
 ### Windows
 
 ```
-
-powershell -Command if ( !(Test-Path C:\tmp)){ new-item -path c:\ -name tmp -type directory;} Set-ExecutionPolicy unrestricted; $client = new-object System.Net.WebClient;$client.DownloadFile('https://download.cloudwiz.cn/agent/windows_deploy_agent.ps1','C:/tmp/windows_deploy_agent.ps1'); $ORG_TOKEN='<orgTtoken>';$CLIENT_ID='<clientId>';$SYSTEM_ID='<systemId>';$METRIC_SERVER_HOST='<metric_server_host>';$ALERTD_SERVER='<alert_server> ';$AGENT_URL='https://download.cloudwiz.cn/agent';$ONLINE=<online>;$UPDATE=<update>;$OS_VERSION='<os_version>';c:/tmp/windows_deploy_agent.ps1;
+powershell -Command {if ( !(Test-Path C:\tmp)){ new-item -path c:\  -name tmp -type directory;} Set-ExecutionPolicy unrestricted; $client = new-object System.Net.WebClient;$client.DownloadFile('http://<server_host>/agent/windows/windows_deploy_agent.ps1','C:/tmp/windows_deploy_agent.ps1');$ORG_TOKEN='<orgTtoken>';$CLIENT_ID='<clientId>';  $INSTALL_ROOT = 'C:\opt\cloudwiz-agent';$SYSTEM_ID='<systemId>'; $LOG_SERVER = 'http://<log_server>/_log' ; $SSL=0; $METRIC_SERVER='<tsdb_server>/_tsdb';$ALERTD_SERVER='http://<alert_server>/_alertd';$AGENT_URL='http://<agent_server>/agent';$ONLINE=1;$UPDATE=0;$OS_VERSION='windows';c:/tmp/windows_deploy_agent.ps1;}
 
 ```
 
