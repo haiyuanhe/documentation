@@ -32,6 +32,7 @@
   * [Nginx](part4/collector/nginx.md)
   * [Mysql](part4/collector/mysql.md)
   * [Zookeeper](part4/collector/zookeeper.md)
+  * [Tomcat](part4/collector/tomcat.md)
 * [微信支持](part4/wei-xin-zhi-chi.md)
 * [个人中心](part4/guan-li-gong-neng/ge-ren-zhong-xin.md)
   * [个人中心](part4/guan-li-gong-neng/ge-ren-zhong-xin.md)
