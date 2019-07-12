@@ -8,4 +8,8 @@
 
 3）点击列表任一进程项，可查看该进程资源消耗情况
 
-![](/part5/images/resource-18-12-06.png)
+![](/part4/images/resource.png)
+
+4) 相似进程聚合查看
+
+![](/part4/images/resource_cluster.png)
