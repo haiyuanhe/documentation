@@ -2,60 +2,68 @@
 
 nginx 探针的实现主要是依赖 nginx_status api 接口, 可以nginx 配置来实现.
 
-访问 http://localhost:80/nginx_status 即可测试
+## 检测当前nginx安装配置
+```
+nginx -V
+```
+![](/part4/images/nginx_01.png)
 
-## 1. 配置启动探针
+> 如果你的环境中可以看到有 --with-http_sub_module 这个模块，就代表可以启用status 。如果没有，参考博客 https://blog.csdn.net/memory6364/article/details/84326896
 
-### Linux系统
 
-1）在监控平台的菜单 『系统配置』 >>『探针管理』中选择"Nginx"编辑
+## 修改nginx配置文件
+```
+vi nginx.conf
 
-![](/part4/images/Nginx1.png)
+# monitor server
+server {
+  # 指定端口号，以8081为例
+  listen 8081; 
+  location /nginx_status {
+    stub_status on;
+    access_log off;
+  }
+}
+```
+	
+## 重读nginx 配置文件
+```
+nginx -s reread
+```
+## 测试
+访问 http://localhost:8081/nginx_status 即可测试
+```
+curl localhost:8081/nginx_status
+```
 
-2）修改配置，启动探针
+![](/part4/images/nginx_02.png)
 
-![](/part4/images/Nginx2.png)
-
-> 参数说明
+## 配置nginx监控
+> 在部署探针，并且部署了nginx的机器上进行以下操作
 
 ```
-enabled = true    //是否启动探针
-interval(sec) = 30    //每30秒更新一次
+# 修改配置文件
+vi /opt/cloudwiz-agent/agent/collectors/conf/nginx.conf
 host = localhost
-port = 80
-is_enable_https = #是否启用https
+port = 8081
+is_enable_https = false#是否启用https
 uri = /nginx_status #默认是访问http://localhost:80/nginx_status 如有需要自行修改.
 ```
-
-### Windows系统
-1) 手动修改nginx.conf 配置文件
-> 路径：c:/opt/cloudwiz-agent/agent/collectors/conf/nginx.conf
-
-![](/part4/images/Nginx3.png)
-
-> 参数同Linux
-
-2） 启动探针
-
+## 启动探针
 ```
-cd c:\\opt\cloudwiz-agent\agent\
-
-// 查看探针启动状态
-collector_mgr.exe list
-
-// 启动response_time探针
-collector_mgr.exe enable nginx
+# 查看探针启动情况
+/opt/cloudwiz-agent/agent/collector_mgr.py list
+# 关闭nginx探针
+/opt/cloudwiz-agent/agent/collector_mgr.py disable nginx
+# 启动nginx探针
+/opt/cloudwiz-agent/agent/collector_mgr.py enable nginx
 ```
 
-## 2. 仪表盘监控
-1）导入/创建Nginx仪表盘
+## nginx监控预览
+![](/part4/images/nginx_03.png)
 
-![](/part4/images/Nginx4.png)
 
-2) 查看监控仪表盘
-
-![](/part4/images/Nginx5.png)
-
+## nginx指标概览
 
 
 
