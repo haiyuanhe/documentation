@@ -11,11 +11,11 @@
  ![](/part4/images/IaaS_PaaS_1.png)
  
  ### 1.2 混合云环境资源统一管理
- ![](/part4/images/Iaas_PaaS_2.png)
+ ![](/part4/images/IaaS_PaaS_2.png)
   
  ### 1.3 混合云环境统一监控
  
-![](/part4/images/Iaas_PaaS_4.png)
+![](/part4/images/IaaS_PaaS_4.png)
  
  ## 2.Azure集成配置
  
@@ -98,12 +98,12 @@ SQL 服务器 |  azure.sqlserver | 否 | API
 SQL 数据库 | azure.sqlserver.database | 是| API
 存储账户 | azure.storage | 是 | storage
 应用服务 | azure.web.application | 是| API
+应用程序网关 | azure.application.gateway | 是 | API
 ServiceBus | | | |
-应用程序网关 | | | |
 流量管理器配置 | | | |
 
  
- > 若需更多混合云监控服务，欢迎致电Cloudwiz管理员
+ > 若需更多混合云监控服务，欢迎致电Cloudwiz商务总监
  
  > 邮箱: xinyu.liang@cloudwiz.cn
  
