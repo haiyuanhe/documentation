@@ -1,6 +1,6 @@
 # Mysql监控
 
-## 1. 创建只读账户
+## 创建只读账户
 
 启动mysql探针之前请先执行以下命令
 
@@ -10,7 +10,7 @@ bash -c "$(curl -kL https://download.cloudwiz.cn/agent/mysql/deploy.sh)"
 
 > 注意，这里需要获取mysql的root账号密码
 
-## 2. 修改mysql探针配置文件
+## 修改mysql探针配置文件
 
 ```
 # 登录部署探针的mysql机器
@@ -23,11 +23,11 @@ host: localhost
 port: 3306
 ```
 
-## 3. mysql监控预览
+## mysql监控预览
 
 ![](/part4/images/mysql_01.png)
 
-## 4. mysql指标概览
+## mysql指标概览
 指标名称	| 指标描述_中文	| 指标描述_英文
 ---|---|---
 mysql.aborted_clients|	因为客户端下线但是没有正确的关闭连接而被遗弃的连接数量|	The number of connections that were aborted because the client died without closing the connection properly.
@@ -40,7 +40,7 @@ mysql.bytes_received|	收取到来自所有客户端的byte总数|	the number of
 mysql.bytes_sent|	发送到所有客户端的byte总数|	The number of bytes sent to all clients.
 mysql.com_admin_commands|	每个命令被执行的次数|	the number of times each command statement has been executed
 
-## 5.主从监控
+## 主从监控
 1）检查是否配置了主从，即在master机器上配置bin log
 2）master, slave 均部署探针，并启动mysql监控
 3）用mysql只读监控账号登录，cloudwiz_user / cloduwiz_pass检测
