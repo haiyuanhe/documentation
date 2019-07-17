@@ -35,6 +35,7 @@
   * [Tomcat](part4/collector/tomcat.md)
   * [IIS](part4/collector/iis.md)
   * [SQLServer](part4/collector/sqlserver.md)
+  * [Apache](part4/collector/apache.md)
 * [微信支持](part4/wei-xin-zhi-chi.md)
 * [个人中心](part4/guan-li-gong-neng/ge-ren-zhong-xin.md)
   * [个人中心](part4/guan-li-gong-neng/ge-ren-zhong-xin.md)
