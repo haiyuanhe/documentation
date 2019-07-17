@@ -34,6 +34,7 @@
   * [Zookeeper](part4/collector/zookeeper.md)
   * [Tomcat](part4/collector/tomcat.md)
   * [IIS](part4/collector/iis.md)
+  * [SQLServer](part4/collector/sqlserver.md)
 * [微信支持](part4/wei-xin-zhi-chi.md)
 * [个人中心](part4/guan-li-gong-neng/ge-ren-zhong-xin.md)
   * [个人中心](part4/guan-li-gong-neng/ge-ren-zhong-xin.md)
